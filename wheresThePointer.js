@@ -4,5 +4,5 @@
 let tbodyElement = document.querySelector('tbody')
 tbodyElement.addEventListener('click', e => {
     let tdElement = e.target
-    tdElement.textContent = `${e.pageX}, ${e.pageY}`
+    tdElement.innerHTML = `${e.pageX}, ${e.pageY}`
 })

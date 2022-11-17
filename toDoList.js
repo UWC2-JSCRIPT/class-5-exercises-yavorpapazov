@@ -25,7 +25,7 @@ const addListItem = function(e) {
   aElement.className = 'delete'
   aElement.textContent = 'Delete'
   aElement.addEventListener('click', deleteListItem)
-  liElement.append(spanElement, aElement)
+  liElement.append(spanElement, ' ', aElement)
   ulElement.append(liElement)
   // Finish function here
 }

@@ -6,4 +6,3 @@ let sameClassElements = document.querySelectorAll('.sun')
 sameClassElements.forEach(item => item.style.color = 'orange')
 // Change the class of the second <li> from to "sun" to "cloudy"
 sameClassElements[0].className = 'cloudy'
-console.log(sameClassElements)
